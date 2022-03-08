@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_IoT", "NUnit_IoT\NUnit_IoT.csproj", "{45CEF50E-88A2-47BD-B94E-114464A80557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45CEF50E-88A2-47BD-B94E-114464A80557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CEF50E-88A2-47BD-B94E-114464A80557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CEF50E-88A2-47BD-B94E-114464A80557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CEF50E-88A2-47BD-B94E-114464A80557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770E6D67-3881-41D9-9611-5FBC01FED0F6}
+	EndGlobalSection
+EndGlobal
