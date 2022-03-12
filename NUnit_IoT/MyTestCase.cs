@@ -14,16 +14,22 @@ namespace NUnit_IoT
         public void Addi()
         {
             MyMath mm = new MyMath();
-            int expectedOut = 31;
-            int actualOut = mm.Addi(20,11);
+            Random r = new Random();
+            int a = r.Next(100);
+            int b = r.Next(100);
+            int expectedOut = a+b;
+            int actualOut = mm.Addi(a,b);
             Assert.AreEqual(expectedOut,actualOut);
         }
 
         [TestCase]
         public void Subi() {
             MyMath mm = new MyMath();
-            int expected = 10;
-            int actual = mm.Subi(30,20);
+            Random r = new Random();
+            int a = r.Next(100);
+            int b = r.Next(100);
+            int expected = a-b;
+            int actual = mm.Subi(a,b);
             Assert.AreEqual(expected, actual);
         }
     }

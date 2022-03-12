@@ -11,6 +11,7 @@ namespace NUnit_IoT
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+            Console.ReadLine();
         }
     }
 }
