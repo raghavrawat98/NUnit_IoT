@@ -51,7 +51,8 @@ namespace NUnit_IoT
             Random r = new Random();
             double a = r.NextDouble();
             double b = r.NextDouble();
-            if (b == 0)
+
+            if (b==0)
             {
                 b += 1;
             }
@@ -68,12 +69,11 @@ namespace NUnit_IoT
             double a = r.NextDouble();
             double b = 0;
             string expectedErrorMessage = "Divide By Zero Error";
-
+            
             var ex = Assert.Throws<ArithmeticException>(() => mm.Division(a, b));
 
             Assert.AreEqual(expectedErrorMessage, ex.Message);
-
-
+            
         }
 
 
