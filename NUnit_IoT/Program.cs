@@ -12,6 +12,12 @@ namespace NUnit_IoT
         {
             Console.WriteLine("Hello");
             Console.ReadLine();
+            double a = 10;
+            double b = 0;
+            MyMath mm = new MyMath();
+            Console.WriteLine(mm.Division(a, b));
+            Console.WriteLine(mm.Division(a, b).GetType());
+
         }
     }
 }
