@@ -8,3 +8,13 @@ D:\GitHub_D\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.pdb
 D:\GitHub_D\NUnit_IoT\NUnit_IoT\bin\Debug\nunit.framework.dll
 D:\GitHub_D\NUnit_IoT\NUnit_IoT\bin\Debug\nunit.framework.xml
 D:\GitHub_D\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.csproj.CopyComplete
+C:\UTFirst\NUnit_IoT\NUnit_IoT\bin\Debug\NUnit_IoT.exe.config
+C:\UTFirst\NUnit_IoT\NUnit_IoT\bin\Debug\NUnit_IoT.exe
+C:\UTFirst\NUnit_IoT\NUnit_IoT\bin\Debug\NUnit_IoT.pdb
+C:\UTFirst\NUnit_IoT\NUnit_IoT\bin\Debug\nunit.framework.dll
+C:\UTFirst\NUnit_IoT\NUnit_IoT\bin\Debug\nunit.framework.xml
+C:\UTFirst\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.csprojAssemblyReference.cache
+C:\UTFirst\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.csproj.CoreCompileInputs.cache
+C:\UTFirst\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.csproj.CopyComplete
+C:\UTFirst\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.exe
+C:\UTFirst\NUnit_IoT\NUnit_IoT\obj\Debug\NUnit_IoT.pdb

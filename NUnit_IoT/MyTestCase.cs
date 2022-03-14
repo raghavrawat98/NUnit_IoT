@@ -11,25 +11,35 @@ namespace NUnit_IoT
     class MyTestCase
     {
         [TestCase]
-        public void Addi()
+        public void TestAddition()
         {
             MyMath mm = new MyMath();
             Random r = new Random();
             int a = r.Next(100);
             int b = r.Next(100);
             int expectedOut = a+b;
-            int actualOut = mm.Addi(a,b);
+            int actualOut = mm.Addition(a,b);
             Assert.AreEqual(expectedOut,actualOut);
         }
 
         [TestCase]
-        public void Subi() {
+        public void TestSubtraction() {
             MyMath mm = new MyMath();
             Random r = new Random();
             int a = r.Next(100);
             int b = r.Next(100);
             int expected = a-b;
-            int actual = mm.Subi(a,b);
+            int actual = mm.Subtraction(a,b);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestCase]
+        public void TestMultiplication() {
+            MyMath mm = new MyMath();
+            Random r = new Random();
+            int a = r.Next(100);
+            int b = r.Next(100);
+            int expected = a * b;
+            int actual = mm.Multiplication(a, b);
             Assert.AreEqual(expected, actual);
         }
     }
