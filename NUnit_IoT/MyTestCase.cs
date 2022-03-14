@@ -15,10 +15,10 @@ namespace NUnit_IoT
         {
             MyMath mm = new MyMath();
             Random r = new Random();
-            int a = r.Next(100);
-            int b = r.Next(100);
-            int expectedOut = a + b;
-            int actualOut = mm.Addition(a, b);
+            double a = r.NextDouble()*10;
+            double b = r.NextDouble()*10;
+            double expectedOut = a + b;
+            double actualOut = mm.Addition(a, b);
             Assert.AreEqual(expectedOut, actualOut);
         }
 
@@ -27,10 +27,10 @@ namespace NUnit_IoT
         {
             MyMath mm = new MyMath();
             Random r = new Random();
-            int a = r.Next(100);
-            int b = r.Next(100);
-            int expected = a - b;
-            int actual = mm.Subtraction(a, b);
+            double a = r.NextDouble() * 10;
+            double b = r.NextDouble() * 10;
+            double expected = a - b;
+            double actual = mm.Subtraction(a, b);
             Assert.AreEqual(expected, actual);
         }
         [TestCase]
@@ -38,10 +38,10 @@ namespace NUnit_IoT
         {
             MyMath mm = new MyMath();
             Random r = new Random();
-            int a = r.Next(100);
-            int b = r.Next(100);
-            int expected = a * b;
-            int actual = mm.Multiplication(a, b);
+            double a = r.NextDouble() * 10;
+            double b = r.NextDouble() * 10;
+            double expected = a * b;
+            double actual = mm.Multiplication(a, b);
             Assert.AreEqual(expected, actual);
         }
         [TestCase]
@@ -49,8 +49,8 @@ namespace NUnit_IoT
         {
             MyMath mm = new MyMath();
             Random r = new Random();
-            double a = r.NextDouble();
-            double b = r.NextDouble();
+            double a = r.NextDouble()*10;
+            double b = r.NextDouble()*10;
 
             if (b==0)
             {

@@ -15,16 +15,16 @@ namespace NUnit_IoT
     //}
     public class MyMath
     {
-        public int Addition(int a, int b)
+        public double Addition(double a, double b)
         {
             return a + b;
         }
 
-        public int Subtraction(int a, int b)
+        public double Subtraction(double a, double b)
         {
             return a - b;
         }
-        public int Multiplication(int a, int b)
+        public double Multiplication(double a, double b)
         {
             return a * b;
         }
