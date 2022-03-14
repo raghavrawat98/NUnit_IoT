@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace NUnit_IoT
 {
-    class MyException : Exception
-    {
-        public MyException()
-        {
-            Console.WriteLine("Exception has occured");
-        }
-    }
+    //class MyException : Exception
+    //{
+    //    public MyException()
+    //    {
+    //        Console.WriteLine("Exception has occured");
+    //    }
+    //}
     public class MyMath
     {
-        public int Addition(int a, int b) {
+        public int Addition(int a, int b)
+        {
             return a + b;
         }
 
-        public int Subtraction(int a, int b) {
+        public int Subtraction(int a, int b)
+        {
             return a - b;
         }
         public int Multiplication(int a, int b)
@@ -27,14 +29,11 @@ namespace NUnit_IoT
             return a * b;
         }
 
-        public double Division(int a, int b)
+        public double Division(double a, double b)
         {
             if (b == 0)
-            {
-                throw new MyException();
-            }
-            double r = a / b;
-            return r;
+                throw new ArithmeticException("Divide By Zero Error");
+            return a / b;
         }
     }
 }
